@@ -3,7 +3,7 @@
 // https://viacep.com.br/
 
 //Limpa o Form (do CEP pra baixo)...
-const limparFormulario = (endereco) =>{
+const limparFormulario = () =>{
     document.getElementById('rua').value = '';
     document.getElementById('bairro').value = '';
     document.getElementById('cidade').value = '';
@@ -22,6 +22,7 @@ const preencherForumulario = (endereco) =>{
 const eNumero = (numero) => /^[0-9]+$/.test(numero); //Expressão Regular
 // É possível testar e entender a RegEx em https://www.regexpal.com/
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+'use strict'; //Strict mode
 
 //Consumindo API... 2- passo
 const pesquisarCep = async() => {
