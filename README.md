@@ -33,8 +33,7 @@ Essa função faz com que sempre que for cadastrar um novo endereço, o formulá
 
 O código faz com que o formulário seja preenchido automaticamente, ao escrever CEP.
 
-    const eNumero = (numero) => /^[0-9]+$/.test(numero); //Expressão Regular
-// É possível testar e entender a RegEx em https://www.regexpal.com/
+    const eNumero = (numero) => /^[0-9]+$/.test(numero);
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 'use strict';
 
@@ -45,10 +44,10 @@ Checar se o tamanho do CEP está correto e se é apenas em números.
     const url = `https://viacep.com.br/ws/${cep.value}/json/`;
     
     if(cepValido(cep.value)){
-        const dados = await fetch(url); //await = esperar = fetch = promessa
-        const addres = await dados.json(); // retorna no formato JSON
+        const dados = await fetch(url);
+        const addres = await dados.json();
         
-        // hasOwnProperty  retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão
+        
         if(addres.hasOwnProperty('erro')){ 
             // document.getElementById('rua').value = 'CEP não encontrado!';
             alert('CEP não encontrado!');
