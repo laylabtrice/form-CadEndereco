@@ -5,7 +5,7 @@
 [Fontes Consultadas](#fontes-consultadas)
 [Autor](#autor)
 
-# form-CadEndereco
+# form-CadEndereço
 
 ![Capa do projeto](img/tela.png)
 
@@ -20,6 +20,13 @@ Sistema para:
 
 Melhor descrição: Formulário para fazer um cadastro a partir de um certo endereço, contendo informções de: Rua, CEP, N.º, Bairro, Complemento, Cidade e estado.
 Com base no CEP escrito, o formuário automáticamente encontra o nome do bairro e da rua, facilitando a escrita de ambos. 
+
+* fetch - Serve para acessar e manipular os pedidos e respostas da API, no código, o fetch é como se fosse uma "promessa", ou seja, vai acontecer
+* await - Await é um elemento utilizado para esperar por uma "promessa"
+* async() - Método que faz uma verificação assíncrona, ou seja, determina que a função é do tipo assíncrona e não precisa ser executada exatamente no momento
+* /^[0-9]+$/.test(numero) - Essa expressão regular serve para verificar se o CEP inserido tem apenas números, mesmo eles sendo repetidos
+* hasOwnProperty - Método de Object instâncias retorna um booleano indicando se este objeto possui a propriedade especificada como propriedade própria (em vez de herdá-la). ° Booleano - é um tipo de dado que representa apenas dois estados, verdadeiro ou falso.
+### fetch, await e async tem uma ligação no código.
 
     const limparFormulario = () =>{
     document.getElementById('rua').value = '';
@@ -68,9 +75,6 @@ Checar se o tamanho do CEP está correto e se é apenas em números.
 
 A função "async()" faz com que não precise ser seguida uma ordem exata e, como escrito nos comentários, é uma função para o consumo de API da Via CEO. O código vai "checar" com a Via CEP se o CEP inserido é válido, caso o CEP não seja, o site retornará uma mensagem de "CEP não encontado" senão, os campos de endereço são preenchidos automaticamente.
 
-
-
-
 # Tecnologias 🛠️:
 * ``JavaScript``
 * ``CSS 3``
@@ -83,9 +87,12 @@ A função "async()" faz com que não precise ser seguida uma ordem exata e, com
 
 # Fontes consultadas
 
-* [Regex Pal](https://www.regexpal.com/)
-* [Alura](https://www.alura.com.br/artigos/escrever-bom-readme)
-* [Via CEP](https://viacep.com.br/)
+* [Regex Pal - Testando funções](https://www.regexpal.com/)
+* [Alura -  Como escrever um README](https://www.alura.com.br/artigos/escrever-bom-readme)
+* [Via CEP - Consulte CEP](https://viacep.com.br/)
+* [ALura - Await e Async no JavaScript](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar)
+* [Mozilla - Await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/await)
+* [Mozilla - Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 
 # Autor
 ## projeto por- [@Layla Beatrice](https://www.github.com/laylabtrice) 
