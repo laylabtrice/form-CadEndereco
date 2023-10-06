@@ -14,11 +14,11 @@ O formulário de endereço serve para realizar o cadastro e, quando inserido o C
 # Introdução
 Projeto criado inicialmente com função de explicação da página usando Arrow Function para os alunos, ou seja, função de ensinar os alunos o uso de tal. Os campos preenchidos automaticamente, são graças ao Arrow Function.
 
-# Descrição de Funcionalidades 🛠️:
 Sistema para:
 * Cadastrar Endereço a partir do formulário.
 
 ### Melhor descrição: Formulário para fazer um cadastro a partir de um certo endereço, contendo informções de: Rua, CEP, N.º, Bairro, Complemento, Cidade e estado.
+
 Com base no CEP escrito, o formuário automáticamente encontra o nome do bairro e da rua, facilitando a escrita de ambos. 
 
 * fetch - Serve para acessar e manipular os pedidos e respostas da API, no código, o fetch é como se fosse uma "promessa", ou seja, vai acontecer
@@ -26,6 +26,8 @@ Com base no CEP escrito, o formuário automáticamente encontra o nome do bairro
 * async() - Método que faz uma verificação assíncrona, ou seja, determina que a função é do tipo assíncrona e não precisa ser executada exatamente no momento
 * /^[0-9]+$/.test(numero) - Essa expressão regular serve para verificar se o CEP inserido tem apenas números, mesmo eles sendo repetidos
 * hasOwnProperty - Método de Object instâncias retorna um booleano indicando se este objeto possui a propriedade especificada como propriedade própria (em vez de herdá-la). ° Booleano - é um tipo de dado que representa apenas dois estados, verdadeiro ou falso.
+
+# Descrição de Funcionalidades 🛠️:
 
     const limparFormulario = () =>{
     document.getElementById('rua').value = '';
