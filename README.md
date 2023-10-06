@@ -1,5 +1,9 @@
 # ìndice
-
+[Introdução](#introdu%C3%A7%C3%A3o)
+[Descrição de Funcionalidades 🛠️](#descri%C3%A7%C3%A3o-de-funcionalidades-%EF%B8%8F)
+[Tecnologias 🛠️](#tecnologias)
+[Fontes Consultadas]()
+[Autor](#autor)
 
 # form-CadEndereco
 
@@ -65,15 +69,21 @@ A função "async()" faz com que não precise ser seguida uma ordem exata e, com
 
 
 
-# Tecnologias:
+# Tecnologias 🛠️:
 * ``JavaScript``
 * ``CSS 3``
 * ``HTML 5``
-* ``API``
 * ``GITHUB``
 * ``GIT``
 * ``Regex Pal``
 * ``Bootstrap 5.0``
+* ``API Via CEP``
+
+# Fontes consultadas
+
+* [Regex Pal](https://www.regexpal.com/)
+* [Alura](https://www.alura.com.br/artigos/escrever-bom-readme)
+* [Via CEP](https://viacep.com.br/)
 
 # Autor
 ## projeto por- [@Layla Beatrice](https://www.github.com/laylabtrice) 
