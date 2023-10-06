@@ -24,6 +24,8 @@ Com base no CEP escrito, o formuário automáticamente encontra o nome do bairro
 
 # Descrição de Funcionalidades 🛠️:
 
+![Funcionalidade 1](img/gif1.gif)
+
     const limparFormulario = () =>{
     document.getElementById('rua').value = '';
     document.getElementById('bairro').value = '';
