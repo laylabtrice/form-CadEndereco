@@ -1,9 +1,9 @@
 # ìndice
-[Introdução](#introdu%C3%A7%C3%A3o)
-[Descrição de Funcionalidades 🛠️](#descri%C3%A7%C3%A3o-de-funcionalidades-%EF%B8%8F)
-[Tecnologias 🛠️](#tecnologias)
-[Fontes Consultadas](#fontes-consultadas)
-[Autor](#autor)
+[Introdução](#introdu%C3%A7%C3%A3o)  
+[Descrição de Funcionalidades 🛠️](#descri%C3%A7%C3%A3o-de-funcionalidades-%EF%B8%8F)  
+[Tecnologias 🛠️](#tecnologias)  
+[Fontes Consultadas](#fontes-consultadas)  
+[Autor](#autor)  
 
 # form-CadEndereço
 
