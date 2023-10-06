@@ -2,10 +2,12 @@
 [Introdução](#introdu%C3%A7%C3%A3o)
 [Descrição de Funcionalidades 🛠️](#descri%C3%A7%C3%A3o-de-funcionalidades-%EF%B8%8F)
 [Tecnologias 🛠️](#tecnologias)
-[Fontes Consultadas]()
+[Fontes Consultadas](#fontes-consultadas)
 [Autor](#autor)
 
 # form-CadEndereco
+
+![Capa do projeto](img/tela.png)
 
 O formulário de endereço serve para realizar o cadastro e, quando inserido o CEP, campos como "rua", "bairro", "cidade" e "estado" são preenchidos automaticamente.
 
