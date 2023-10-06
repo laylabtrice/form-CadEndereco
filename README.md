@@ -9,10 +9,10 @@
 
 ![Capa do projeto](img/tela.png)
 
-O formulário de endereço serve para realizar o cadastro e, quando inserido o CEP, campos como "rua", "bairro", "cidade" e "estado" são preenchidos automaticamente.
+Formulário para fazer um cadastro a partir de um certo endereço, contendo informções de: Rua, CEP, N.º, Bairro, Complemento, Cidade e estado. Quando inserido o CEP, campos como "rua", "bairro", "cidade" e "estado" são preenchidos automaticamente.
 
 # Introdução
-Projeto criado inicialmente com função de explicação da página usando Arrow Function para os alunos, ou seja, função de ensinar os alunos o uso de tal. Os campos preenchidos automaticamente, são graças ao Arrow Function. Formulário para fazer um cadastro a partir de um certo endereço, contendo informções de: Rua, CEP, N.º, Bairro, Complemento, Cidade e estado.
+Projeto criado inicialmente com função de explicação da página usando Arrow Function para os alunos, ou seja, função de ensinar os alunos o uso de tal. Os campos preenchidos automaticamente, são graças ao Arrow Function.
 
 Com base no CEP escrito, o formuário automáticamente encontra o nome do bairro e da rua, facilitando a escrita de ambos. 
 
