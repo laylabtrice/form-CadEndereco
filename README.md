@@ -1,4 +1,4 @@
-# ìndice
+# índice
 [Introdução](#introdu%C3%A7%C3%A3o)  
 [Descrição de Funcionalidades 🛠️](#descri%C3%A7%C3%A3o-de-funcionalidades-%EF%B8%8F)  
 [Tecnologias 🛠️](#tecnologias)  
@@ -35,6 +35,8 @@ Com base no CEP escrito, o formuário automáticamente encontra o nome do bairro
 
 Essa função faz com que sempre que for cadastrar um novo endereço, o formulário apaga campos do endereço antigo.
 
+![Funcionalidade 2](img/gif2.gif)
+
     const preencherForumulario = (endereco) =>{
     document.getElementById('rua').value = endereco.logradouro;
     document.getElementById('bairro').value = endereco.bairro;
@@ -70,6 +72,8 @@ Checar se o tamanho do CEP está correto e se é apenas em números.
         alert('CEP incorreto!');
     } 
 }
+
+![Funcionalidade 4](img/ultimogif.gif)
 
 A função "async()" faz com que não precise ser seguida uma ordem exata e, como escrito nos comentários, é uma função para o consumo de API da Via CEO. O código vai "checar" com a Via CEP se o CEP inserido é válido, caso o CEP não seja, o site retornará uma mensagem de "CEP não encontado" senão, os campos de endereço são preenchidos automaticamente.
 
